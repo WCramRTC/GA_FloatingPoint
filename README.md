@@ -14,43 +14,40 @@ Here is an overview of the `double` data type:
 
 ---
 
-## Requirements
+#### Requirements (Total 100 Points)
 
-#### Project Setup (15 Points)
+#### Project Setup (10 Points)
 - Create a new console application named `GA_DoubleMath_YourName`.
 - Ensure the project is properly set up with `Program.cs`.
 
-#### Understanding `double` (25 Points)
+#### Understanding `double` (15 Points)
 - Explain the purpose and range of the `double` data type.
 - Provide examples showcasing the use of `double`.
 
-#### Implementation of Basic Floating-Point Operations (25 Points)
+#### Implementation of Basic Floating-Point Operations (15 Points)
 - Implement and thoroughly explain basic floating-point operations (addition, subtraction, multiplication, division) using `double`.
 - Include multiple examples for each operation.
 
-#### Complex Floating-Point Operations (25 Points)
+#### Math Operations with `int` and `double` (15 Points)
+- Discuss the interaction and outcome of operations between `int` and `double`.
+
+#### Complex Floating-Point Operations (20 Points)
 - Develop and explain complex mathematical expressions that combine different floating-point operations.
 - Use examples to demonstrate the correct application of the order of operations.
 
-#### Handling Floating-Point Precision (20 Points)
+#### Handling Floating-Point Precision (10 Points)
 - Explain the limitations of floating-point precision and potential issues with rounding errors.
 - Provide examples illustrating precision problems and possible solutions.
 
-#### Code Testing and Validation (15 Points)
+#### Code Testing and Validation (10 Points)
 - Test all basic and complex operations in the `Main` method.
 - Validate the results with detailed explanations.
-
-#### Code Readability and Documentation (15 Points)
-- Write well-organized and readable code.
-- Include comprehensive comments explaining the logic and purpose of the code.
 
 #### Submission (5 Points)
 - Successfully upload the complete project to GitHub.
 - Ensure the repository is public and contains all necessary files.
 - Submit the correct GitHub repository link in Canvas.
 
-#### Total (145 Points)
-- Each section is mandatory, and points are awarded based on fulfilling each detailed requirement accurately.
 
 ---
 
@@ -163,18 +160,16 @@ Console.WriteLine($"Equation 2 Result: {equation2}");
 
 ---
 
-## Revised Rubric
+## Updated Rubric
 
 | Criteria | Description | Points |
 |----------|-------------|--------|
-| **Project Setup** | Correct project creation and setup. | 15 |
-| **Understanding `double`** | Detailed explanation and examples of the `double` data type. | 25 |
-| **Basic Floating-Point Operations** | Correct implementation and in-depth explanation. | 25 |
-| **Complex Floating-Point Operations** | Accurate execution of complex expressions with explanations. | 25 |
-| **Handling Floating-Point Precision** | Explanation of precision issues and solutions. | 20 |
-| **Code Testing and Validation** | Effective testing, validation, and explanation of results. | 15 |
-| **Code Readability** | Well-organized and documented code. | 15 |
+| **Project Setup** | Correct project creation and setup. | 10 |
+| **Understanding `double`** | Detailed explanation and examples of the `double` data type. | 15 |
+| **Basic Floating-Point Operations** | Correct implementation and in-depth explanation. | 15 |
+| **Math Operations with `int` and `double`** | Explaining interactions between `int` and `double` in operations. | 15 |
+| **Complex Floating-Point Operations** | Accurate execution of complex expressions with explanations. | 20 |
+| **Handling Floating-Point Precision** | Explanation of precision issues and solutions. | 10 |
+| **Code Testing and Validation** | Effective testing, validation, and explanation of results. | 10 |
 | **Submission** | Proper GitHub upload and submission. | 5 |
-| **Total** |  | 145 |
-
-In this revised rubric, points have been allocated to emphasize the understanding of `double`, basic and complex floating-point operations, precision issues, and code readability. The sections on Numeric Overflows and Additional Equations have been removed, and their points have been distributed among the remaining categories to maintain a total of 145 points.
+| **Total** | | 100 |
